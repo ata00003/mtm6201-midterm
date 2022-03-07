@@ -13,20 +13,20 @@
 </head>
 <body>
     <header>
+        <nav>
+            <img src="images/logo.svg"  alt="Algonquin header logo">
+            <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+           </ul>
+            </div>
+    </nav>
         
     </header>  
-            <nav>
-                <img src="images/logo.svg"  alt="Algonquin header logo">
-                <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-               </ul>
-                </div>
-        </nav>
+           
         <div class="container"> 
-            <main>
                 <div class="header-grid2">
                 <div class="about-header">
                 <h1>What to expect during construction.</h1>
@@ -59,8 +59,17 @@
                 </section>
                 <div class="services-grid">
                     <div class="entertainment">
-                        <img src="images/bar.jpg" alt="bar">
-                        </div>
+                    <picture>
+                        <source srcset="images/bar640.jpg,
+                                        images/bar1280.jpg 2x"
+                                media="(min-width:960px)">
+        
+                        <source srcset="images/bar320.jpg,
+                                        images/bar640.jpg 2x"
+                                  media="(max-width:959px)">
+                    <img src="images/bar.jpg" alt="bar">
+                    </picture>
+                    </div>
                     <div class="entertainment">
                     <h2>Need a break?</h2>
                     <h3>Restaurant & Loung </h3>
@@ -74,16 +83,33 @@
                     <p>are finally here. Grab your friends and book a lane at the Students’ Association Bowling Lanes that will be part of the upcoming ARC! Don't like bowling? Well, look no further. Practice your swing no matter the weather on the Golf Simulator that will be located in the ARC building. </p>
                     </div>
                     <div class="entertainment">
-                    <img src="images/bowling.jpg" alt="bowling">
+                        <picture>
+                            <source srcset="images/bowling640.jpg,
+                                            images/bowling1280.jpg 2x"
+                                    media="(min-width:960px)">
+            
+                            <source srcset="images/bowling320.jpg,
+                                            images/bowling640.jpg 2x"
+                                      media="(max-width:959px)">
+                        <img src="images/bowling.jpg" alt="bowling">
+                        </picture>
                     </div>
                     </div>
-                </div>
                     <div class="divider"><h3>Keep up to date with our news letter</h3> 
                     <a href=""  class="subscribe-button">Subscribe</a>
                 </div>
                     <div class="services-grid">
                         <div class="entertainment">
-                        <img src="images/fitness.jpg" alt="fitness">
+                            <picture>
+                                <source srcset="images/fitness640.jpg,
+                                                images/fitness1280.jpg 2x"
+                                        media="(min-width:960px)">
+                
+                                <source srcset="images/fitness320.jpg,
+                                                images/fitness640.jpg 2x"
+                                          media="(max-width:959px)">
+                         <img src="images/fitness.jpg" alt="fitness">
+                            </picture>
                          </div>
                         <div class="entertainment">
                         <h2>New year, new me</h2>
@@ -98,11 +124,20 @@
                         <p>Test your strength and flexibility on the rock-climbing wall. Add some variety to your fitness routine, the ARC will be able to offer more yoga and fitness classes to fit into your busy schedule. After a busy day of rock climbing or yoga, come and enjoy our new massage therapy area.  </p>
                         </div>
                         <div class="entertainment">
-                        <img src="images/climbing.jpg" alt="climbing">
-                        </div>
+                            <picture>
+                                <source srcset="images/climbing640.jpg,
+                                                images/climbing1280.jpg 2x"
+                                        media="(min-width:960px)">
+                
+                                <source srcset="images/climbing320.jpg,
+                                                images/climbing640.jpg 2x"
+                                          media="(max-width:959px)">
+                             <img src="images/climbing.jpg" alt="climbing">
+                            </picture>
+                         </div>
                         </div>
                         <section>
-                        <h2>Special thank you <br>to the following</br></h2>
+                        <h2>Special thank you <br>to the following</h2>
                         <div class="last-section">
                         <img src="images/sa.png" alt="students association">
                         <img src="images/AC_ICON_FC_GRN_240x200.png" alt="college logo">
@@ -110,13 +145,13 @@
                         <img src="images/cibc.png"  alt="cibc bank">
                         </div>
                     </section>
-            </main>
-        </div>
-</body>
-<footer>
-    <p>Follow Us</p>
-    <img src="icons/facebook.svg" alt="">
-    <img src="icons/instagram.svg" alt="">
-    <img src="icons/twitter.svg" alt="">
-    <img src="icons/youtube.svg" alt="">
-</footer>
+                        </div>
+                    <footer>
+                       <p>Follow Us</p>
+                      <img src="icons/facebook.svg" alt="">
+                      <img src="icons/instagram.svg" alt="">
+                      <img src="icons/twitter.svg" alt="">
+                      <img src="icons/youtube.svg" alt="">
+                    </footer>
+                </body>
+                    </html>
