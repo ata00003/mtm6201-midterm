@@ -1388,8 +1388,11 @@ textarea{
             font-size: 72px;
         }
          /*********TABLET CONTACT*********/
-        .contact{
-            width:90%;
+         .contact-grid{
+            display: block;
+         }
+         .contact{
+            width:100%;
         }
         .contact p{
             font-size: 18px;
@@ -1399,7 +1402,7 @@ textarea{
         }
         form{
             background-color:#26a682;
-            width:90%;
+            width:100%;
             color: #f2f2f2;
             padding:0 10px;
             font-size:18px;
@@ -1407,18 +1410,19 @@ textarea{
         }
         label{
             margin-left:10px;
+            margin:5px;
         }
         input{
+            width:60%;
             border-radius: 15px;
             padding:10px 80px;  
-            margin-bottom:5px;
+            margin-bottom:5px; 
         }
        textarea{
-            padding:40px 70px;
+            width:60%;
             border-radius: 15px;
         }
         #btn{
-            padding:10px 30px;
             background-color:#3c3b3a ;
             color:#f2f2f2;
         }
