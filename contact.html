@@ -7,7 +7,6 @@
     <title>Contact</title>
     <link href="styles/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Raleway&display=swap" rel="stylesheet">
 </head>
@@ -28,6 +27,7 @@
             <div class="container">   
                  
         <main>
+            <!-- div tag to make them all four items a group and style them as a grid-->
             <div class="contact-grid">
             <div class="contact">
             <h1>We Want to Hear From You</h1>
@@ -35,20 +35,22 @@
             <img src="images/contact-img.svg"  alt="contact images">
             </div>
             <div class="contact">
-                <h1>Contact us.</h1>
                 <form action="contact.html" method="get">
+                    <h1>Contact us.</h1>
+                    <!--I used placehalder to be able to write the placeholder text in each box-->
                     <label for="fullname">Full name</label><br>
                     <input type="text" id="fullname" name="full name" placeholder="Full name"><br>
                     <label for="studentnumber">Student Number</label><br>
                     <input type="text" id="studentnumber" name="student number" placeholder="Student Number"><br>
                     <label for="Email">Email</label><br>
                     <input type="text" id="Email" name="Email" placeholder="Email"><br>
-                    <label for="Message">Message</label><br>
-                    <input type="text" id="Message" name="Message"  placeholder="Message"><br>
+                    <label for="Message">Message</label>
+                    <textarea id="Message" name="Message">Message</textarea>
                     <input type="submit" id="btn" value="Submit"> </form> 
             </div>
             <div class="contact">
                 <h1>Our Location</h1>
+                <!-- br tag to write the next text on a next line-->
                 <h2>Algonquin College Students' Association</h2>
                 <p>Monday to Friday – 8:30am to 6:00pm<br>
                     1385 Woodroffe Avenue (E114)<br>
@@ -64,10 +66,10 @@
             </div>
             <footer>
                 <p>Follow Us</p>
-                <img src="icons/facebook.svg" alt="">
-                <img src="icons/instagram.svg" alt="">
-                <img src="icons/twitter.svg" alt="">
-                <img src="icons/youtube.svg" alt="">
+                <img src="icons/facebook.svg" alt="facebook">
+                <img src="icons/instagram.svg" alt="instagram">
+                <img src="icons/twitter.svg" alt="twitter">
+                <img src="icons/youtube.svg" alt="youtube">
             </footer>
             </body>
         </html>
